@@ -31,6 +31,13 @@ header{
     align-items: center;
 }
 
+.logo {
+    font-size: 2rem;
+    text-decoration: none;
+    color: #ff5e00;
+    margin-left: 2.55rem;
+}
+
 nav a {
     font-size: 1.3rem;
     color: white;
