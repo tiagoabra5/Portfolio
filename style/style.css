@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: black;
+    color: white;
+}
+
+header{
+    margin-top: 20px;
+    margin-left: 30px;
+    top: 0;
+    left: 0;
+    width: 95%;
+    background-color: transparent;
+    filter: drop-shadow(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2rem;
+    text-decoration: none;
+    cursor: pointer;
+    color: #ff5e00;
+    margin-left: 2.55rem;
+    transition: 0.5s ease;
+}
+
+.logo:hover {
+    transform: rotate(360deg)
+}
+
+nav a {
+    font-size: 1.3rem;
+    color: white;
+    margin-left: 2rem;
+    font-weight: 500;
+    transition: 0.5s ease;
+    border-bottom: 1px solid transparent;
+}
+
+nav a:hover,
+nav a.active {
+    color: #ff5e00;
+    border-bottom: 1px solid #ff5e00;
+    transition: 0.5s ease;
+}
+
+img {
+    margin-left: 30px;
+    max-width:200px;
+    max-height:500px;
+    width: auto;
+    height: auto;
+}
+
+section {
+    min-height: 100vh;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.home .home-content h1{
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+span{
+    color: #ff5e00;
+    font-size: 3.5rem;
+}
+
+.home-content h3{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.home-content p{
+    font-size: 1.6rem;
+}
+
+.home-img{
+    border-radius: 8%;
+}
+
+.home-img img{
+    position: relative;
+    width: 50rem;
+    border-radius: 8%;
+    box-shadow: 0 0 25px solid #ff5e00;
+    cursor: pointer;
+    transition: 0.2s linear;
+}
+
+.home-img img:hover{
+    font-size: 1.8rem;
+    font-weight: 500;
+    transform: scale(1.3);
+}
+
+.social-icons a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    background-color: transparent;
+    border: 0.2rem solid #ff5e00;
+    font-size: 1rem;
+    border-radius: 50%;
+    margin: 1.5rem 0.9rem 1.5rem 0;
+    transition: 0.3s ease;
+    color: #ff5e00;
+}
+
+.social-icons a:hover{
+    color: black;
+    transform: scale(1.5);
+    background-color: #ff5e00;
+    box-shadow: 0  0 25px #ff5e00;
+}
+
