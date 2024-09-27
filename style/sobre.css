@@ -66,4 +66,19 @@ nav a.active {
 
 .texto {
     display: flex;
+    height: 100%;
+    border: 1px solid rgb(0, 0, 0);
+    margin-right: 210px;
+    margin-left: 210px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.titulosobre {
+    text-align: center;
+    margin-top: 40px;
 }
