@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+html ::-webkit-scrollbar {
+    width: 7px;
+}
+  
+html ::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    background: #ff5e00;
+}
+  
+html ::-webkit-scrollbar-track {
+    background: #000000;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+header{
+    margin-top: 20px;
+    margin-left: 30px;
+    top: 0;
+    left: 0;
+    width: 95%;
+    background-color: transparent;
+    filter: drop-shadow(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2rem;
+    text-decoration: none;
+    color: #ff5e00;
+    margin-left: 2.55rem;
+}
+
+nav a {
+    font-size: 1.3rem;
+    color: white;
+    margin-left: 2rem;
+    font-weight: 500;
+    transition: 0.5s ease;
+    border-bottom: 1px solid transparent;
+}
+
+nav a:hover,
+nav a.active {
+    color: #ff5e00;
+    border-bottom: 1px solid #ff5e00;
+    transition: 0.5s ease;
+}
+
+/* From Uiverse.io by bociKond */ 
+.form {
+    --bg-light: #efefef;
+    --bg-dark: #707070;
+    --clr: #ff5e00;
+    --clr-alpha: #9c9c9c60;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .form .input-span {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .form input[type="tel"],
+  .form input[type="name"],
+  .form input[type="email"] {
+    border-radius: 0.5rem;
+    padding: 1rem 0.75rem;
+    width: 100%;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: var(--clr-alpha);
+    outline: 2px solid var(--bg-dark);
+  }
+  
+  .form input[type="email"]:focus,
+  .form input[type="password"]:focus {
+    outline: 2px solid var(--clr);
+  }
+  
+  .label {
+    align-self: flex-start;
+    color: var(--clr);
+    font-weight: 600;
+  }
+  
+  .form .submit {
+    padding: 1rem 0.75rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 3rem;
+    background-color: var(--bg-dark);
+    color: var(--bg-light);
+    border: none;
+    cursor: pointer;
+    transition: all 300ms;
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+  
+  .form .submit:hover {
+    background-color: var(--clr);
+    color: var(--bg-dark);
+  }
+  
+  .span {
+    text-decoration: none;
+    color: var(--bg-dark);
+  }
+  
+  .span a {
+    color: var(--clr);
+  }  
+
+.box {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
