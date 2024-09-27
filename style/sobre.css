@@ -64,3 +64,6 @@ nav a.active {
     transition: 0.5s ease;
 }
 
+.texto {
+    display: flex;
+}
