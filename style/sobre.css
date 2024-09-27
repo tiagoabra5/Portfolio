@@ -10,6 +10,19 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html ::-webkit-scrollbar {
+    width: 7px;
+}
+  
+html ::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    background: #ff5e00;
+}
+  
+html ::-webkit-scrollbar-track {
+    background: #000000;
+}
+
 body {
     background-color: black;
     color: white;
@@ -50,3 +63,4 @@ nav a.active {
     border-bottom: 1px solid #ff5e00;
     transition: 0.5s ease;
 }
+
