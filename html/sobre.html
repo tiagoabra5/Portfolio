@@ -4,27 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style/sobre.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <link rel="icon" href="../assets/icon.png">
+
     <title>Tiago Abraão - Portfolio</title>
 </head>
-<body>
+<body style="background-color: black;">
 
     <header>
         <a href="#" class="logo"><strong>Tiago Abraão</strong></a>
 
         <nav>
-            <a href="../index.html">Inicio</a>
-            <a href="#" class="active">Sobre</a>
-            <a href="./projetos.html">Projetos</a>
-            <a href="./contato.html">Contato</a>
+            <a href="../index.html" style="text-decoration: none;">Inicio</a>
+            <a href="#" class="active" style="text-decoration: none;">Sobre</a>
+            <a href="./projetos.html" style="text-decoration: none;">Projetos</a>
+            <a href="./contato.html" style="text-decoration: none;">Contato</a>
         </nav>
     </header>
 
     <section class="Sobre">
         <div class="sobre-text">
-            <h2 class="titulosobre">Sobre mim:</h2>
+            <h2 class="titulosobre" style="color: white;">Sobre mim:</h2>
             <div class="texto">
-                <p>
+                <p style="color: white;">
                     Me chamo Tiago Abraão, atualmente estou cursando o 1° periodo
                     de Sistema de Informação (SI) na cesar school. Onde estou sempre
                     em busca de aprender mais sobre o universo da tecnologia e do 
@@ -51,12 +54,41 @@
             </div>
         </div>
 
-        <div>
-            <h2 class="titulo">Competências</h2>
-            <div>
-                
-            </div>
+        <h2 style="color: white; text-align: center;">Competencias</h2>
+
+        <div class="carrossel" style="width: 30%; height: 30%; margin-left: 475px;">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="../assets/logo-js.png" class="d-block w-100" alt="js-logo">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../assets/logo-py.png" class="d-block w-100" alt="python-logo">
+                  </div>
+                  <div class="carousel-item" class="mysql">
+                    <img src="../assets/logo-mysql.png" class="d-block w-100" alt="mysql-logo">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../assets/logo-git.png" class="d-block w-100" alt="git-logo">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../assets/logo-html.png" class="d-block w-100" alt="html-logo">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../assets/logo-css.png" class="d-block w-100" alt="css.logo">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
         </div>
+
     </section>
 </body>
 </html>
