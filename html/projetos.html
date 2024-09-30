@@ -3,26 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style/sobre.css">
+    <link rel="stylesheet" href="../style/projetos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="icon" href="../assets/icon.png">
     <title>Tiago Abraão - Portfolio</title>
 </head>
-<body>
+<body style="background-color: black;">
 
     <header>
         <a href="../index.html" class="logo"><strong>Tiago Abraão</strong></a>
 
         <nav>
-            <a href="../index.html">Inicio</a>
-            <a href="./sobre.html">Sobre</a>
-            <a href="#" class="active">Projetos</a>
-            <a href="./contato.html">Contato</a>
+            <a href="../index.html" style="text-decoration: none;">Inicio</a>
+            <a href="./sobre.html" style="text-decoration: none;">Sobre</a>
+            <a href="#" class="active" style="text-decoration: none;">Projetos</a>
+            <a href="./contato.html" style="text-decoration: none;">Contato</a>
         </nav>
     </header>
 
     <section class="Projetos">
-        <div>
-
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="../assets/calc-bin.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Calculadora dec to bin</h5>
+                      <ul class="card-text">
+                        <li>fiz uma calculadora simples pra transformar numero decimal em binario com javascript</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="../assets/filmes.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">site api de filmes</h5>
+                      <ul class="card-text">
+                        <li>fiz um site utilizando api de filmes para poder favoritar seus filmes favoritos</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="../assets/loja.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Loja online</h5>
+                      <ul class="card-text">
+                        <li>esse foi o site de uma loja que eu utilizei html, css, js e precisei de um banco de dados pra salvar as info dos clientes</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
         </div>
     </section>
 </body>
